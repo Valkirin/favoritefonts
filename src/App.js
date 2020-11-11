@@ -1,5 +1,6 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
+import { Header } from './components/UI/Header';
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -19,8 +20,8 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      {/* <Header />
-      <NavBar />
+      <Header />
+      {/*<NavBar />
       <MainSec>
         <FontCard />
       </MainSec>
