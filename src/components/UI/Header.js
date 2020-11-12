@@ -12,8 +12,11 @@ const HeaderWrapper = styled.div`
 
 const HeaderLogo = styled.div`
   color: #979797;
+  div {
+    padding: 1em 0;
+  }
   .google {
-    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
   }
   .fonts {
     font-family: 'Product Sans', Arial, Helvetica, sans-serif;
@@ -23,6 +26,7 @@ const HeaderLogo = styled.div`
 const HeaderNav = styled.div`
   ul > li {
     display: inline;
+    margin-left: 10px;
     a {
       text-decoration: none;
       color: #979797;
@@ -34,8 +38,10 @@ export const Header = (props) => {
   return (
     <HeaderWrapper>
       <HeaderLogo>
-        <span className={'google'}>Google</span>
-        <span className={'fonts'}>&nbsp;Fonts</span>
+        <div>
+          <span className={'google'}>Google</span>
+          <span className={'fonts'}>&nbsp;Fonts</span>
+        </div>
       </HeaderLogo>
       <HeaderNav>
         <ul>

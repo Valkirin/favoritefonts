@@ -1,6 +1,7 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import { Header } from './components/UI/Header';
+import { MainBar } from './components/UI/MainBar';
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -21,8 +22,8 @@ function App() {
     <>
       <GlobalStyle />
       <Header />
-      {/*<NavBar />
-      <MainSec>
+      <MainBar />
+      {/*<MainSec>
         <FontCard />
       </MainSec>
       <Footer /> */}
