@@ -1,9 +1,10 @@
 import React from 'react';
-import { createGlobalStyle } from 'styled-components';
 import { Header } from './components/UI/Header';
 import { MainBar } from './components/UI/MainBar';
+// import { GlobalStyles } from './components/UI/globalStyles';
+import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
   html {
     height: 100%;
   }
@@ -20,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <>
-      <GlobalStyle />
+      <GlobalStyles />
       <Header />
       <MainBar />
       {/*<MainSec>
