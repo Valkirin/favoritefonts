@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './theme';
-// import { GlobalStyles } from './components/UI/globalStyles';
 
 const NavWrapper = styled.div`
   margin: 15px auto;
@@ -37,7 +36,6 @@ export const MainBar = (props) => {
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <NavWrapper>
-        {/* <GlobalStyles /> */}
         <div>
           <StyledInput type='text' name='search' placeholder='Search fonts' />
           <StyledInput type='text' name='text' placeholder='Type something' />
@@ -49,8 +47,7 @@ export const MainBar = (props) => {
             </option>
             <option value='40'>40px</option>
           </SelectInput>
-          <button onClick={toggleTheme}>Toggle theme</button>
-          {/* <ThemeToggle type='checkbox' id='checkbox' /> */}
+          <button onClick={toggleTheme}>Dark/Light</button>
         </div>
       </NavWrapper>
     </ThemeProvider>

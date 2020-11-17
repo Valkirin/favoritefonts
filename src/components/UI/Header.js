@@ -46,20 +46,16 @@ export const Header = (props) => {
       <HeaderNav>
         <ul>
           <li>
-            {' '}
-            <a href='#'>CATALOG</a>{' '}
+            <a href='#'>CATALOG</a>
           </li>
           <li>
-            {' '}
-            <a href='#'>FEATURED</a>{' '}
+            <a href='#'>FEATURED</a>
           </li>
           <li>
-            {' '}
-            <a href='#'>ARTICLES</a>{' '}
+            <a href='#'>ARTICLES</a>
           </li>
           <li>
-            {' '}
-            <a href='#'>ABOUT</a>{' '}
+            <a href='#'>ABOUT</a>
           </li>
         </ul>
       </HeaderNav>
