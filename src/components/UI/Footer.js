@@ -5,6 +5,7 @@ const FooterInfo = styled.div`
   display: flex;
   justify-content: center;
   font-size: 12px;
+  height: 30px;
 `;
 
 export const Footer = (props) => {

@@ -26,7 +26,8 @@ function App() {
       <GlobalStyles />
       <Header />
       <MainBar />
-      {/* <MainSection> */}
+      <MainSection />
+      <MainSection />
       <Footer />
     </>
   );
